@@ -1,0 +1,22 @@
+.form {    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 430px;
+    min-height: 330px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 34px 36px 37px;
+}
+
+@media screen and (max-width: 767px) {
+    .form {
+        top: 123px;
+        width: 282px;
+        min-height: 322px;
+        padding: 25px 22px;
+    }
+}

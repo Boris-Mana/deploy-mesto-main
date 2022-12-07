@@ -1,0 +1,24 @@
+.profile__add-batton {
+    min-width: 150px;
+    min-height: 50px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #000000;
+    margin-left: auto;
+    align-self: center;
+    padding: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.profile__add-batton:hover {
+    opacity: 0.6;
+    transition: opacity 1s linear;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__add-batton {
+        width: 100%;
+    }
+}

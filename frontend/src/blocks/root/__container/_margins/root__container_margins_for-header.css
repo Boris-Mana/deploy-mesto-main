@@ -1,0 +1,9 @@
+.root__container_margins_for-header {
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 767px) {
+    .root__container_margins_for-header {
+        margin-top: 28px;
+    }
+}

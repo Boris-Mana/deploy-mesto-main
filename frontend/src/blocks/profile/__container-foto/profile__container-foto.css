@@ -1,0 +1,14 @@
+.profile__container-foto {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 30px;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__container-foto {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.form__input_grey-placehold::placeholder {
+    color: #C4C4C4;
+}
+
+.form__input_grey-placehold::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #C4C4C4;
+}
+.form__input_grey-placehold:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #C4C4C4;
+   opacity:  1;
+}
+.form__input_grey-placehold::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #C4C4C4;
+   opacity:  1;
+}
+.form__input_grey-placehold:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #C4C4C4;
+}
+.form__input_grey-placehold::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #C4C4C4;
+}

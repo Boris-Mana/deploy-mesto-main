@@ -1,0 +1,23 @@
+.content {
+    width: calc(100% - 200px*2);
+    margin: auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .content {
+        width: calc(100% - 72px*2);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .content {
+        width: calc(100% - 92px*2);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        width: calc(100% - 19px*2);
+    }
+}

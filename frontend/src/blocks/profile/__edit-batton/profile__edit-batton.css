@@ -1,0 +1,26 @@
+.profile__edit-batton {
+    display: block;
+    min-width: 24px;
+    min-height: 24px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: #000000;
+    align-self: center;
+    padding: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.profile__edit-batton:hover {
+    opacity: 0.6;
+    transition: opacity 1s linear;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__edit-batton {
+        min-width: 18px;
+        min-height: 18px;
+        /* align-self: flex-start; */
+    }
+}

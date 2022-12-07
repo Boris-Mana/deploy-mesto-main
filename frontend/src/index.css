@@ -1,0 +1,78 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+@import url(./blocks/root/root.css);
+@import url(./blocks/root/__container/root__container.css);
+@import url(./blocks/root/__container/_margins/root__container_margins_for-header.css);
+@import url(./blocks/root/__container/_margins/root__container_margins_for-profile.css);
+@import url(./blocks/root/__container/_margins/root__container_margins_for-elements.css);
+@import url(./blocks/root/__container/_margins/root__container_margins_for-footer.css);
+
+@import url(./blocks/content/content.css);
+
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_type_pic-view/popup_type_pic-view.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__close-button/popup__close-button.css);
+@import url(./blocks/popup/__close-button/_pic-view/popup__close-button_pic-view.css);
+@import url(./blocks/popup/__close-button/_hidden/popup__close-button_hidden.css);
+@import url(./blocks/popup/__container/_picview/popup__container_picview.css);
+@import url(./blocks/popup/__container/_signin/popup__container_signin.css);
+@import url(./blocks/popup/__photo/popup__photo.css);
+@import url(./blocks/popup/__title/popup__title.css);
+@import url(./blocks/popup/__title/_signin/popup__title_signin.css);
+@import url(./blocks/popup/_type_signin/popup_type_signin.css);
+@import url(./blocks/popup/__link-to-signin/popup__link-to-signin.css);
+@import url(./blocks/popup/_type_tooltip/popup_type-tooltip.css);
+@import url(./blocks/popup/__container/_tooltip/popup__container_tooltip.css);
+@import url(./blocks/popup/__tip-symbol/popup__tip-symbol.css);
+@import url(./blocks/popup/__tooltip-title/popup__tooltip-title.css);
+
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/_del-card/form_del-card.css);
+@import url(./blocks/form/__title/form__title.css);
+@import url(./blocks/form/__title/_signin/form__title_signin.css);
+@import url(./blocks/form/__user-info/form__user-info.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__input-auth/form__input-auth.css);
+@import url(./blocks/form/__input/_type-error/form__input_type-error.css);
+@import url(./blocks/form/__input-error/form__input-error.css);
+@import url(./blocks/form/__save/form__save.css);
+@import url(./blocks/form/__save/_active/form__save_active.css);
+@import url(./blocks/form/__save/_signin/form__save_signin.css);
+@import url(./blocks/form/_edit-avatar/form_edit-avatar.css);
+@import url(./blocks/form/_signin/form_signin.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/_signin/header_signin.css);
+@import url(./blocks/header/__user-ident/header__user-ident.css);
+@import url(./blocks/header/__link-auth/header__link-auth.css);
+@import url(./blocks/header/__link-auth/_getout/header__link-auth_getout.css);
+
+@import url(./blocks/profile/profile.css);
+@import url(./blocks/profile/__container-foto/profile__container-foto.css);
+@import url(./blocks/profile/__foto/profile__foto.css);
+@import url(./blocks/profile/__foto-edit/profile__foto-edit.css);
+@import url(./blocks/profile/__info/profile__info.css);
+@import url(./blocks/profile/__name/profile__name.css);
+@import url(./blocks/profile/__profession/profile__profession.css);
+@import url(./blocks/profile/__edit-batton/profile__edit-batton.css);
+@import url(./blocks/profile/__add-batton/profile__add-batton.css);
+@import url(./blocks/profile/__cross/profile__cross.css);
+
+@import url(./blocks/elements/elements.css);
+@import url(./blocks/elements/__element/elements__element.css);
+@import url(./blocks/elements/__group/elements__group.css);
+@import url(./blocks/elements/__foto/elements__foto.css);
+@import url(./blocks/elements/__delete/elements__delete.css);
+@import url(./blocks/elements/__delete/_visible/elements__delete_hidden.css);
+@import url(./blocks/elements/__title/elements__title.css);
+@import url(./blocks/elements/__like-group/elements__like-group.css);
+@import url(./blocks/elements/__like-count/elements__like-count.css);
+@import url(./blocks/elements/__like/elements__like.css);
+@import url(./blocks/elements/__like/_active/elements__like_active.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__info/footer__info.css);
